@@ -6,12 +6,10 @@
             
             .div1{
                background-image: url("div1bg.jpg");
-            
-               background-repeat: no-repeat;
                background-attachment: scroll;
                background-size: 100% 100%;
 
-               height: 800px;
+               height: 700px;
                width: contain;
 
                color: white;
@@ -23,6 +21,8 @@
                 background-image: url("paperbg.jpg");
                 background-image: cross-fade();
 
+                padding: 50px, 50px, 40px, 40px;
+
             }
             .btn_planatrip{
                 background-color: crimson;
@@ -31,7 +31,7 @@
                 height: 40px;
                 border-radius: 20px;
             }
-            .btn_getcitizenship{
+            .btn_apply{
                 background-color: navy;
                 color: white;
                 width: 110px;
@@ -101,20 +101,47 @@
                 color: white;
             }
             .box{
-            margin: 50px;
-            width: 300px;
-            border-radius: 5px;
-            box-shadow: 0 0 8px 2px black;
+                margin: 50px;
+                width: 300px;
+                height: 500px;
+                border-radius: 5px;
+                box-shadow: 0 0 8px 2px black;
+           
             }
             .image{
                 width: 100%;
                 border-radius: 10px;
+                height: 200px;
+
+                overflow: hidden;
+                background-position: top;
+                
             }
             .content{
                 padding: 10px;
                 color:crimson;
                 background-color: green;
+                height: 220px;
+                overflow: hidden;
             }
+            .explore{
+                height: 40px;
+                padding-right: 110px;
+                background-image:url("content_bg.jpg");
+                
+                
+            }
+            .exp_btn{
+                border-radius: 20px;
+                width: 80px;
+                
+
+            }
+            .exp_btn:hover{
+                background-color: darkblue;
+                color: white
+            }
+
             h2{
                 color: blue;
             }
@@ -132,12 +159,11 @@
                 transform: scale(1.1);
                 transition: all 5s;
             }
-            .image{
-                overflow: hidden;
-            }
+             
+            
             .div3{
-                width:1100px;
-                height:400px;
+                width:100%;
+                height:1300px;
                 background-color: yellowgreen;
                 padding-top:20px;
                 padding-left:15px;
@@ -151,7 +177,7 @@
                 float: left;
             }
             #pokhara_div{
-                float: right;
+                float: left;
             }
             #illam_div{
                 float:left;
@@ -162,7 +188,7 @@
             }
 
             #mustang_div{
-                float: right;
+                float: left;
             }
             .div4{
                 background-color: lawngreen;
@@ -190,13 +216,13 @@
             </p>
 
             <button class="btn_planatrip">Plan a Trip</button>
-            <button class="btn_getcitizenship">Get Citizenship</button>
+            <button class="btn_apply">Apply</button>
         </DIV>
 
         <DIV class="div2">
             <h4 style="text-align: center;">Introduction To Nepal</h4>
-            <h3><b>THE LAND OF THE BRAVE GORKHAS!</b></h3>
-            <p>Nepal, country of Asia, lying along the southern slopes of the Himalayan mountain ranges. 
+            <h3 style="font-family: cursive;"><b>THE LAND OF THE BRAVE GORKHAS!</b></h3>
+            <p style="font-family: cursive;">Nepal, country of Asia, lying along the southern slopes of the Himalayan mountain ranges. 
                 It is a landlocked country located between India to the east, south, 
                 and west and the Tibet Autonomous Region of China to the north. 
                 Its territory extends roughly 500 miles (800 kilometres) from 
@@ -215,14 +241,12 @@
                 <div class="div2_1">
                     <img src="div2img.jpg"/>
                 </div>
-                <div>
-
-                </div>
+                
 
         </DIV>
 
         <div class="div3">
-            <h2>Important Destinations</h2>
+            <h2 style="color: white; padding-left: 500px;"><b>Important Destinations</b></h2>
 
             
             
@@ -230,7 +254,7 @@
                 <div class="image">
                     <img src="gorkha.jpg" width="300px"/>
                 </div>
-                <div class="content" id="gorkha_div">
+                <div class="content">
                     <h2>Gorkha</h2>
                     <p>Gorkha is the genesis of the modern day Nepal.
                         King Prithivi Narayan Shah, in 1799 BS. started the 
@@ -239,12 +263,12 @@
                         The present day Gorkha district is home to the historic palace.</p>
                 </div>
                 <div class="explore">
-                    <button>Explore</button>
+                    <button class="exp_btn">Explore</button>
                 </div>
             </div>
 
             <div class="box" id="kalapani_div">
-                <div class="image" id="kalapani_div">
+                <div class="image">
                     <img src="kalapani.jpg" width="300px"/>
                 </div>
                 <div class="content">
@@ -257,7 +281,7 @@
                         and India.</p>
                 </div>
                 <div class="explore">
-                    <button>Explore</button>
+                    <button class="exp_btn">Explore</button>
                 </div>
             </div>
 
@@ -276,7 +300,7 @@
                        </p>
                 </div>
                 <div class="explore">
-                    <button>Explore</button>
+                    <button class="exp_btn">Explore</button>
                 </div>
             </div>
 
@@ -294,7 +318,7 @@
                     
                 </div>
                 <div class="explore">
-                    <button>Explore</button>
+                    <button class="exp_btn">Explore</button>
                 </div>
             </div>
 
@@ -314,7 +338,7 @@
                     </p>
                 </div>
                 <div class="explore">
-                    <button>Explore</button>
+                    <button class="exp_btn">Explore</button>
                 </div>
             </div>
 
@@ -334,7 +358,7 @@
                     </p>
                 </div>
                 <div class="explore">
-                    <button>Explore</button>
+                    <button class="exp_btn">Explore</button>
                 </div>
             </div>
 
