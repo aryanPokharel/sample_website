@@ -115,7 +115,7 @@
 
                 overflow: hidden;
                 background-position: top;
-                
+
             }
             .content{
                 padding: 10px;
@@ -154,6 +154,8 @@
                 display: flex;
                 justify-content: flex-end;
                 margin: 10px;
+                background-image: url("content_bg.jpg");
+                background-size: 100%,100%;
             }
             .image:hover img{
                 transform: scale(1.1);
@@ -191,7 +193,14 @@
                 float: left;
             }
             .div4{
-                background-color: lawngreen;
+                background-image: url("vertical_wood.jpg");
+                background-repeat: no-repeat;
+                background-repeat: repeat;
+        
+                padding-left: 400px;
+            }
+            #submit_btn,#reset_btn{
+                margin-left: 200px;
             }
             
                 
@@ -362,18 +371,84 @@
                 </div>
             </div>
 
-    </div>
+        </div>
+
+    <h3>Here is a map to help you around the Kathmandu city as well as throughout Nepal</h3>
+    <div class="mapouter"><div class="gmap_canvas">
+        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Kathmandu,Nepal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe><a href="https://fmovies2.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedded map</a>
+        <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+    </div></div>
 
         
         <DIV class="div4">
+            <h2>You can fill up this form to apply for a Nepalese tourist visa</h2>
+            <form style="font-family: cursive;">
+                <label>FullName: </label>
+                <input style="margin-left: 180px;" type="text" required/>
+                <br>
+                <br>
+                <label>Age</label>
+                <input style="margin-left: 220px;" type="number" required/>
+                <br>
+                <br>
+                <label>Current Nationality</label>
+                <input style="margin-left: 120px;" type="text" required/>
+                <br>
+                <br>
+
+                <label for="gender">Gender</label>
+                <select style="margin-left: 200px;" name="gender" id="gender">
+                    <option  value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="visit">Have You Been To Nepal Before?</label>
+                <input style="margin-left: 30px;" type="radio" name="visit" id="visit" value="Yes" required />
+                <label for="Yes">Yes</label><br>
+                <input style="margin-left: 250px;" type="radio" name="visit" id="visit" value="No" required />
+                <label  for="No">No</label><br>
+                <br>
+
+                <label for="objectives">State Your Objectives Of Visit:</label>
+                <br>
+                <i>You may choose multiple options!</i><br>
+
+                <input style="margin-left: 250px;" type="checkbox" name="objectives" id="objectives" value="Casual Visit"/>
+                <label for="Casual Visit">Casual Visit</label><br>
+
+                <input style="margin-left: 250px;" type="checkbox" name="objectives" id="objectives" value="Cultural Research"/>
+                <label for="Cultural Research">Doing Cultural Research</label><br>
+
+                <input style="margin-left: 250px;" type="checkbox" name="objectives" id="objectives" value="Revisit"/>
+                <label for="Revisit">Revisiting Old Country</label><br>
+
+                <input style="margin-left: 250px;" type="checkbox" name="objectives" id="objectives" value="Mountaineering"/>
+                <label for="Mountaineering">Mountaineering</label><br>
+
+                <input style="margin-left: 250px;" type="checkbox" name="objectives" id="objectives" value="Citizenship"/>
+                <label for="Citizenship">For Permanant Citizenship</label><br>
+                <br>
+
+                <button type="submit" id="submit_btn">Submit</button>
+                <button type="reset" id="reset_btn">Reset</button>
+
+
+
+
+                
+            </form>
+        </DIV>
+
+        <DIV class="div5">
             <h2>This is footer section </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 Earum explicabo quas, nesciunt iste exercitationem reiciendis veritatis quibusdam fugit, 
                 hic consequatur est. Iste officia voluptatem repellendus quibusdam harum consequatur cumque quo.</p>
-
         </DIV>
-
-        <DIV class="div5"></DIV>
     </body>
 </html>
 
