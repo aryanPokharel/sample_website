@@ -15,7 +15,8 @@
                color: white;
 
                text-align: center;
-               top: 50pc;               
+               top: 50pc;      
+                        
             }
             .div2{
                 background-image: url("paperbg.jpg");
@@ -47,7 +48,7 @@
                 color: white;
                 transition: 600ms;
             }
-            .btn_getcitizenship:hover{
+            .btn_apply:hover{
                 background-color: green;
                 color: white;
                 transition: 600ms;
@@ -103,9 +104,10 @@
             .box{
                 margin: 50px;
                 width: 300px;
-                height: 500px;
+                height: 480px;
                 border-radius: 5px;
                 box-shadow: 0 0 8px 2px black;
+                margin-left: 100px;
            
             }
             .image{
@@ -132,6 +134,7 @@
                 
             }
             .exp_btn{
+                margin-top: 5px;
                 border-radius: 20px;
                 width: 80px;
                 
@@ -153,9 +156,11 @@
             .explore{
                 display: flex;
                 justify-content: flex-end;
-                margin: 10px;
-                background-image: url("content_bg.jpg");
+                
+                
+                background-image: image("content_bg.jpg");
                 background-size: 100%,100%;
+                background-size: 100%;
             }
             .image:hover img{
                 transform: scale(1.1);
@@ -165,11 +170,15 @@
             
             .div3{
                 width:100%;
-                height:1300px;
-                background-color: yellowgreen;
+                height:1200px;
+                
+                background-image: url("repeat_bg.jpg");
+    
                 padding-top:20px;
                 padding-left:15px;
                 padding-right:15px;
+
+                background-attachment: fixed;
             }
 
             #gorkha_div{
@@ -202,6 +211,7 @@
             #submit_btn,#reset_btn{
                 margin-left: 200px;
                 background-color: crimson;
+                border-radius: 20px;
             }
             #submit_btn:hover{
                 background-color: chocolate;
@@ -225,9 +235,9 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <h2 class="nepal" style="text-align: center;">Nepal</h1>
+            
             <h1 class="land">The Land Of Buddha and Mount Everest</h1>
-            <p class="para1">The Federal Democratic Republic nation 
+            <p class="para1" style="margin-left: 300px;">The Federal Democratic Republic nation 
                 of Nepal is located in the Himalayas, tucked in a geopolitically significant region between 
                 China and India.
             </p>
@@ -237,9 +247,9 @@
         </DIV>
 
         <DIV class="div2">
-            <h4 style="text-align: center;">Introduction To Nepal</h4>
-            <h3 style="font-family: cursive;"><b>THE LAND OF THE BRAVE GORKHAS!</b></h3>
-            <p style="font-family: cursive;">Nepal, country of Asia, lying along the southern slopes of the Himalayan mountain ranges. 
+            <h2 style="text-align: center; color: white;">Introduction To Nepal</h4>
+            <h3 style="font-family: cursive; color: crimson;"><b>THE LAND OF THE BRAVE GORKHAS!</b></h3>
+            <p style="font-family: cursive; color: navy;">Nepal, country of Asia, lying along the southern slopes of the Himalayan mountain ranges. 
                 It is a landlocked country located between India to the east, south, 
                 and west and the Tibet Autonomous Region of China to the north. 
                 Its territory extends roughly 500 miles (800 kilometres) from 
@@ -256,20 +266,23 @@
             
 
                 <div class="div2_1">
-                    <img src="div2img.jpg"/>
+                    <img src="div2img.jpg" width="370px" height="200px"/>
+                    <img src="namaste.jpg" width="380px" height="200px"/>
+                    <img src="temple.jpg" width="370px" height="200px"/>
+                    <img src="khukuri.jpg" width="370px" height="200px"/>
                 </div>
                 
 
         </DIV>
 
         <div class="div3">
-            <h2 style="color: white; padding-left: 500px;"><b>Important Destinations</b></h2>
+            <h2 style="color: white; padding-left: 600px;"><b>Important Destinations</b></h2>
 
             
             
             <div class="box" id="gorkha_div">
                 <div class="image">
-                    <img src="gorkha.jpg" width="300px"/>
+                    <img src="gorkha.jpg" width="300px" height="200px"/>
                 </div>
                 <div class="content">
                     <h2>Gorkha</h2>
@@ -286,7 +299,7 @@
 
             <div class="box" id="kalapani_div">
                 <div class="image">
-                    <img src="kalapani.jpg" width="300px"/>
+                    <img src="kalapani.jpg" width="300px" height="200px"/>
                 </div>
                 <div class="content">
                     <h2>Kalapani</h2>
@@ -304,7 +317,7 @@
 
             <div class="box" id="pokhara_div">
                 <div class="image">
-                    <img src="pokhara.jpg" width="300px"/>
+                    <img src="pokhara.jpg" width="300px" height="200px"/>
                 </div>
                 <div class="content">
                     <h2>Pokhara</h2>
@@ -323,7 +336,7 @@
 
             <div class="box" id="illam_div">
                 <div class="image">
-                    <img src="illam.jpg" width="300px"/>
+                    <img src="illam.jpg" width="300px" height="200px"/>
                 </div>
                 <div class="content">
                     <h2>Illam</h2>
@@ -341,7 +354,7 @@
 
             <div class="box" id="lumbini_div">
                 <div class="image">
-                    <img src="lumbini.jpg" width="300px"/>
+                    <img src="lumbini.jpg" width="300px" height="200px"/>
                 </div>
                 <div class="content">
                     <h2>Lumbini</h2>
@@ -362,7 +375,7 @@
 
             <div class="box" id="mustang_div">
                 <div class="image">
-                    <img src="mustang.jpg" width="300px"/>
+                    <img src="mustang.jpg" width="300px" height="200px"/>
                 </div>
                 <div class="content">
                     <h2>Mustang</h2>
@@ -407,7 +420,7 @@
 
                 <label for="gender">Gender</label>
                 <select style="margin-left: 210px;" name="gender" id="gender"><br>
-                    <option  value="Male">Male</option>
+                    <option  value="Male" ">Male</option>
                     <option value="Female">Female</option>
                     <option value="Other">Other</option>
                 </select>
@@ -415,7 +428,7 @@
                 <br>
 
                 <label for="visit">Have You Been To Nepal Before?</label>
-                <input style="margin-left: 30px;" type="radio" name="visit" id="visit" value="Yes" required />
+                <input style="margin-left: 30px; " type="radio" name="visit" id="visit" value="Yes" required />
                 <label for="Yes">Yes</label><br>
                 <input style="margin-left: 250px;" type="radio" name="visit" id="visit" value="No" required />
                 <label  for="No">No</label><br>
@@ -452,12 +465,15 @@
         </DIV>
 
         <DIV class="div5">
-            <h2>This is footer section </h2>
+            <h2>Conslusion </h2>
             <p>You can always connect to the Nepalese tourism board as well as any of
                 the administrative organs of the Nepalese government through the links
                 provided below or through the social media official accounts of the 
                 respective bodies.
             </p>
+            <p>All the Nepalese would be greatly ecstatic to welcome foreign tourists to Nepal.
+            </p>
+            <h3>Namaste!</h3>
 
             <a style="display:inline" href="https://www.welcomenepal.com/" target="_blank"><img src="tourism_board.jpg" width="350px" height="200px"/></a>
             <a style="display:inline" href="https://www.nepalgov.com/item/ministry-of-foreign-affairs-mofa" target="_blank"><img src="foreign_ministry.jpg" width="350px" height="200px"/></a>
