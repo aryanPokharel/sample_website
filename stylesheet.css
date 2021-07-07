@@ -1,0 +1,221 @@
+	     body{
+                background-image: url("darkwoodtile.jpg");
+            }
+            
+            .div1{
+               background-image: url("div1bg.jpg");
+               background-attachment: scroll;
+               background-size: 100% 100%;
+
+               height: 700px;
+               width: contain;
+
+               color: white;
+
+               text-align: center;
+               top: 50pc; 
+               margin-top: 10px;     
+                        
+            }
+            .div2{
+                background-image: url("paperbg.jpg");
+                background-image: cross-fade();
+
+                padding: 50px, 50px, 40px, 40px;
+
+            }
+            .btn_planatrip{
+                background-color: crimson;
+                color: white;
+                width: 110px;
+                height: 40px;
+                border-radius: 20px;
+            }
+            .btn_apply{
+                background-color: navy;
+                color: white;
+                width: 110px;
+                height: 40px;
+                border-radius: 20px;
+
+            }
+            .para1{
+                max-width: 800px;
+            }
+            .btn_planatrip:hover{
+                background-color: green;
+                color: white;
+                transition: 600ms;
+            }
+            .btn_apply:hover{
+                background-color: green;
+                color: white;
+                transition: 600ms;
+            }
+            .land{
+                margin: auto;
+                margin-top: 300px;
+                width: 400px;
+            }
+            .nepal{
+                text-align: center;
+            }
+            .navbar{
+                display: inline;
+                list-style: none;
+            }
+            .tourismNepal{
+                color: crimson;
+                text-align: left;
+                margin-left: 20px;
+                margin-top: 50px;
+                font-family:cursive;
+                
+                text-decoration: none;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+            }
+
+            li {
+              float: right;
+            }
+
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 16px;
+              text-decoration: none;
+            }
+
+            li a:hover {
+              color: greenyellow;
+            }
+            .homelink{
+                text-decoration: none;
+                color: white;
+            }
+            .box{
+                margin: 50px;
+                width: 300px;
+                height: 480px;
+                border-radius: 5px;
+                box-shadow: 0 0 8px 2px black;
+                margin-left: 100px;
+           
+            }
+            .image{
+                width: 100%;
+                border-radius: 10px;
+                height: 200px;
+
+                overflow: hidden;
+                background-position: top;
+
+            }
+            .content{
+                padding: 10px;
+                color:crimson;
+                background-color: green;
+                height: 220px;
+                overflow: hidden;
+            }
+            .explore{
+                height: 40px;
+                padding-right: 110px;
+                background-image:url("content_bg.jpg");
+                
+                
+            }
+            .exp_btn{
+                margin-top: 5px;
+                border-radius: 20px;
+                width: 80px;
+                
+
+            }
+            .exp_btn:hover{
+                background-color: darkblue;
+                color: white
+            }
+
+            h2{
+                color: blue;
+            }
+            button{
+                background-color: blue;
+                color: #fff;
+                padding: 10px;
+            }
+            .explore{
+                display: flex;
+                justify-content: flex-end;
+                
+                
+                background-image: image("content_bg.jpg");
+                background-size: 100%,100%;
+                background-size: 100%;
+            }
+            .image:hover img{
+                transform: scale(1.1);
+                transition: all 5s;
+            }
+             
+            
+            .div3{
+                width:100%;
+                height:1200px;
+                
+                background-image: url("repeat_bg.jpg");
+    
+                padding-top:20px;
+                padding-left:15px;
+                padding-right:15px;
+
+                background-attachment: fixed;
+            }
+
+            #gorkha_div{
+                float: left;
+            }
+            #kalapani_div{
+                float: left;
+            }
+            #pokhara_div{
+                float: left;
+            }
+            #illam_div{
+                float:left;
+            }
+
+            #lumbini_div{
+                float: left;
+            }
+
+            #mustang_div{
+                float: left;
+            }
+            .div4{
+                background-image: url("vertical_wood.jpg");
+                background-repeat: no-repeat;
+                background-repeat: repeat;
+        
+                padding-left: 400px;
+            }
+            #submit_btn,#reset_btn{
+                margin-left: 200px;
+                background-color: crimson;
+                border-radius: 20px;
+            }
+            #submit_btn:hover{
+                background-color: chocolate;
+            }
+            
+            #reset_btn:hover{
+                background-color: chocolate;
+            }
